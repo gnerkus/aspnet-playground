@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "custom-middleware-ssr", "custom-middleware-ssr\custom-middleware-ssr.csproj", "{F5978801-AAFB-46D8-830A-95EE67AFA6F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "custom-middleware", "custom-middleware\custom-middleware.csproj", "{8EBF930A-4D58-4312-8511-70F8A5ADF66C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{F5978801-AAFB-46D8-830A-95EE67AFA6F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5978801-AAFB-46D8-830A-95EE67AFA6F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5978801-AAFB-46D8-830A-95EE67AFA6F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EBF930A-4D58-4312-8511-70F8A5ADF66C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EBF930A-4D58-4312-8511-70F8A5ADF66C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EBF930A-4D58-4312-8511-70F8A5ADF66C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EBF930A-4D58-4312-8511-70F8A5ADF66C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

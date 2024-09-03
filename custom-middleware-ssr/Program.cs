@@ -1,5 +1,3 @@
-using System.Globalization;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -16,20 +14,6 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
-app.Use(async (context, next) =>
-{
-    var cultureQuery = context.Request.Query["culture"];
-    if (!string.IsNullOrWhiteSpace(cultureQuery))
-    {
-        var culture = new CultureInfo(cultureQuery);
-
-        CultureInfo.CurrentCulture = culture;
-        CultureInfo.CurrentUICulture = culture;
-    }
-    
-    await next(context);
-});
 
 app.UseStaticFiles();
 
